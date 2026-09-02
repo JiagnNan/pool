@@ -1,0 +1,14 @@
+type LogReq {
+	Id     int64  `json:"id"`
+	Action string `json:"action"`
+}
+
+type LogResp {
+	Message string `json:"message"`
+}
+
+service logdemo {
+	@handler Log
+	post /log (LogReq) returns (LogResp)
+}
+
