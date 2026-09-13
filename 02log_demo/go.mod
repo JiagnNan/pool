@@ -2,10 +2,12 @@ module 02log_demo
 
 go 1.25.9
 
-require github.com/zeromicro/go-zero v1.10.3
+require (
+	github.com/Yiming1997/agilePool/v2 v2.0.3
+	github.com/zeromicro/go-zero v1.10.3
+)
 
 require (
-	github.com/Yiming1997/agilePool/v2 v2.0.3 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
